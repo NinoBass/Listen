@@ -1,0 +1,47 @@
+name: listen
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  iconify_flutter: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.8.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: ProximaSoft
+      fonts:
+        - asset: assets/fonts/ProximaSoft-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/ProximaSoft-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ProximaSoft-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ProximaSoft-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ProximaSoft-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ProximaSoft-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ProximaSoft-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/ProximaSoft-Black.ttf
+          weight: 900
